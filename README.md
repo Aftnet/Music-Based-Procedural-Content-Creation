@@ -10,7 +10,7 @@ Research was carried out into defining a small set of numerically expressible pa
 
 By providing a method for audio perceptual feature calculation and proving its applicability to game scenarios, the development of new procedural content creation techniques that can be used in more prominent ways is facilitated.
 
-The full dissertation paper is available <a href=”/Documents/Music_Based_Procedural_Content_Creation.pdf”>here</a>.
+The full dissertation paper is available [here](http://aftnet.net/content/Music-based-procedural-content-creation.pdf)
 
 ## System Requirements
 Windows XP or later with the latest version of the DirectX 9 runtime installed, a reasonably recent CPU (Intel Core 1.6 GHz or better), at least 1GB RAM (2 GB recommended for longer tracks), audio output devices.
