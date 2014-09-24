@@ -1,0 +1,134 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MusiGen", "MusiGen\MusiGen.vcxproj", "{F46E5557-7977-42FF-8071-2867A65FB32F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A0B9F59B-71BC-4350-9402-35C7305A001E} = {A0B9F59B-71BC-4350-9402-35C7305A001E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioAnalyzer", "AudioAnalyzer\AudioAnalyzer.vcxproj", "{463A9344-FA93-4EA2-A8C3-AC17D1E7A3CF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A0B9F59B-71BC-4350-9402-35C7305A001E} = {A0B9F59B-71BC-4350-9402-35C7305A001E}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7D06812D-3753-402B-9D33-558BD1E88ECF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioLib", "AudioLib\AudioLib.vcxproj", "{A0B9F59B-71BC-4350-9402-35C7305A001E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FFTW", "FFTW", "{4F5DD9AE-B0B8-40A8-BBAC-615D175CEDB9}"
+	ProjectSection(SolutionItems) = preProject
+		FFTW\COPYING.txt = FFTW\COPYING.txt
+		FFTW\COPYRIGHT.txt = FFTW\COPYRIGHT.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bin", "Bin", "{E400D257-3B35-4B52-A82B-A22F70C7C541}"
+	ProjectSection(SolutionItems) = preProject
+		FFTW\bin\libfftw3-3.dll = FFTW\bin\libfftw3-3.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Include", "Include", "{0CC45384-C7DD-429A-AD45-7E7BC92DDF50}"
+	ProjectSection(SolutionItems) = preProject
+		FFTW\include\fftw3.h = FFTW\include\fftw3.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{1A71C5A6-A213-4124-BF1C-0F8CD0855720}"
+	ProjectSection(SolutionItems) = preProject
+		FFTW\lib\libfftw3-3.lib = FFTW\lib\libfftw3-3.lib
+		FFTW\lib\libfftw3f-3.lib = FFTW\lib\libfftw3f-3.lib
+		FFTW\lib\libfftw3l-3.lib = FFTW\lib\libfftw3l-3.lib
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FFMpeg", "FFMpeg", "{D6ADD428-EE21-44C4-869C-7B984D077856}"
+	ProjectSection(SolutionItems) = preProject
+		FFMpeg\GPL.txt = FFMpeg\GPL.txt
+		FFMpeg\HOWTO.txt = FFMpeg\HOWTO.txt
+		FFMpeg\README.txt = FFMpeg\README.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{F448994D-4CBB-47C5-BCC9-060FCB428CE6}"
+	ProjectSection(SolutionItems) = preProject
+		FFMpeg\bin\avcodec-52.dll = FFMpeg\bin\avcodec-52.dll
+		FFMpeg\bin\avdevice-52.dll = FFMpeg\bin\avdevice-52.dll
+		FFMpeg\bin\avformat-52.dll = FFMpeg\bin\avformat-52.dll
+		FFMpeg\bin\avutil-49.dll = FFMpeg\bin\avutil-49.dll
+		FFMpeg\bin\swscale-0.dll = FFMpeg\bin\swscale-0.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{8C4367DA-B5A1-41E1-911B-C5C5D0EA764F}"
+	ProjectSection(SolutionItems) = preProject
+		FFMpeg\include\adler32.h = FFMpeg\include\adler32.h
+		FFMpeg\include\avcodec.h = FFMpeg\include\avcodec.h
+		FFMpeg\include\avdevice.h = FFMpeg\include\avdevice.h
+		FFMpeg\include\avformat.h = FFMpeg\include\avformat.h
+		FFMpeg\include\avio.h = FFMpeg\include\avio.h
+		FFMpeg\include\avstring.h = FFMpeg\include\avstring.h
+		FFMpeg\include\avutil.h = FFMpeg\include\avutil.h
+		FFMpeg\include\base64.h = FFMpeg\include\base64.h
+		FFMpeg\include\common.h = FFMpeg\include\common.h
+		FFMpeg\include\crc.h = FFMpeg\include\crc.h
+		FFMpeg\include\fifo.h = FFMpeg\include\fifo.h
+		FFMpeg\include\intfloat_readwrite.h = FFMpeg\include\intfloat_readwrite.h
+		FFMpeg\include\inttypes.h = FFMpeg\include\inttypes.h
+		FFMpeg\include\log.h = FFMpeg\include\log.h
+		FFMpeg\include\lzo.h = FFMpeg\include\lzo.h
+		FFMpeg\include\mathematics.h = FFMpeg\include\mathematics.h
+		FFMpeg\include\md5.h = FFMpeg\include\md5.h
+		FFMpeg\include\mem.h = FFMpeg\include\mem.h
+		FFMpeg\include\opt.h = FFMpeg\include\opt.h
+		FFMpeg\include\random.h = FFMpeg\include\random.h
+		FFMpeg\include\rational.h = FFMpeg\include\rational.h
+		FFMpeg\include\rtsp.h = FFMpeg\include\rtsp.h
+		FFMpeg\include\rtspcodes.h = FFMpeg\include\rtspcodes.h
+		FFMpeg\include\sha1.h = FFMpeg\include\sha1.h
+		FFMpeg\include\stdint.h = FFMpeg\include\stdint.h
+		FFMpeg\include\swscale.h = FFMpeg\include\swscale.h
+		FFMpeg\include\vdpau.h = FFMpeg\include\vdpau.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{5EE1849D-0F71-4230-A73D-8204F89F70DE}"
+	ProjectSection(SolutionItems) = preProject
+		FFMpeg\lib\avcodec-52.lib = FFMpeg\lib\avcodec-52.lib
+		FFMpeg\lib\avdevice-52.lib = FFMpeg\lib\avdevice-52.lib
+		FFMpeg\lib\avformat-52.lib = FFMpeg\lib\avformat-52.lib
+		FFMpeg\lib\avutil-49.lib = FFMpeg\lib\avutil-49.lib
+		FFMpeg\lib\swscale-0.lib = FFMpeg\lib\swscale-0.lib
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F46E5557-7977-42FF-8071-2867A65FB32F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F46E5557-7977-42FF-8071-2867A65FB32F}.Debug|Win32.Build.0 = Debug|Win32
+		{F46E5557-7977-42FF-8071-2867A65FB32F}.Release|Win32.ActiveCfg = Release|Win32
+		{F46E5557-7977-42FF-8071-2867A65FB32F}.Release|Win32.Build.0 = Release|Win32
+		{463A9344-FA93-4EA2-A8C3-AC17D1E7A3CF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{463A9344-FA93-4EA2-A8C3-AC17D1E7A3CF}.Debug|Win32.Build.0 = Debug|Win32
+		{463A9344-FA93-4EA2-A8C3-AC17D1E7A3CF}.Release|Win32.ActiveCfg = Release|Win32
+		{463A9344-FA93-4EA2-A8C3-AC17D1E7A3CF}.Release|Win32.Build.0 = Release|Win32
+		{A0B9F59B-71BC-4350-9402-35C7305A001E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A0B9F59B-71BC-4350-9402-35C7305A001E}.Debug|Win32.Build.0 = Debug|Win32
+		{A0B9F59B-71BC-4350-9402-35C7305A001E}.Release|Win32.ActiveCfg = Release|Win32
+		{A0B9F59B-71BC-4350-9402-35C7305A001E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F5DD9AE-B0B8-40A8-BBAC-615D175CEDB9} = {7D06812D-3753-402B-9D33-558BD1E88ECF}
+		{E400D257-3B35-4B52-A82B-A22F70C7C541} = {4F5DD9AE-B0B8-40A8-BBAC-615D175CEDB9}
+		{0CC45384-C7DD-429A-AD45-7E7BC92DDF50} = {4F5DD9AE-B0B8-40A8-BBAC-615D175CEDB9}
+		{1A71C5A6-A213-4124-BF1C-0F8CD0855720} = {4F5DD9AE-B0B8-40A8-BBAC-615D175CEDB9}
+		{D6ADD428-EE21-44C4-869C-7B984D077856} = {7D06812D-3753-402B-9D33-558BD1E88ECF}
+		{F448994D-4CBB-47C5-BCC9-060FCB428CE6} = {D6ADD428-EE21-44C4-869C-7B984D077856}
+		{8C4367DA-B5A1-41E1-911B-C5C5D0EA764F} = {D6ADD428-EE21-44C4-869C-7B984D077856}
+		{5EE1849D-0F71-4230-A73D-8204F89F70DE} = {D6ADD428-EE21-44C4-869C-7B984D077856}
+	EndGlobalSection
+EndGlobal

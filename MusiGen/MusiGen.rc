@@ -1,0 +1,51 @@
+// Microsoft Visual C++ generated resource script.
+//
+
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Open",                        ID_FILE_OPENFILE
+        MENUITEM "Exit",                        ID_FILE_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_PLAYERMASK          BITMAP                  "PlayerMask.bmp"
+IDB_BGMASK              BITMAP                  "BGMask.bmp"
+IDB_ENEMY01             BITMAP                  "Enemy01.bmp"
+IDB_ENEMY01MASK         BITMAP                  "Enemy01Mask.bmp"
+IDB_ENEMY02             BITMAP                  "Enemy02.bmp"
+IDB_ENEMY02MASK         BITMAP                  "Enemy02Mask.bmp"
+IDB_ENEMY03             BITMAP                  "Enemy03.bmp"
+IDB_ENEMY03MASK         BITMAP                  "Enemy03Mask.bmp"
+IDB_ENEMYBULLET01       BITMAP                  "EnemyBullet01.bmp"
+IDB_ENEMYBULLET01MASK   BITMAP                  "EnemyBullet01Mask.bmp"
+IDB_IDLE                BITMAP                  "Idle.bmp"
+IDB_LOADING1            BITMAP                  "Loading1.bmp"
+IDB_LOADING2            BITMAP                  "Loading2.bmp"
+IDB_LOADING3            BITMAP                  "Loading3.bmp"
+IDB_PLAYER              BITMAP                  "Player.bmp"
+IDB_PLAYERBULLET        BITMAP                  "PlayerBullet.bmp"
+IDB_PLAYERBULLETMASK    BITMAP                  "PlayerBulletMask.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "Icon.ico"
