@@ -15,6 +15,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioAnalyzer", "AudioAnaly
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7D06812D-3753-402B-9D33-558BD1E88ECF}"
 	ProjectSection(SolutionItems) = preProject
+		Music Based Procedural Content Creation.docx = Music Based Procedural Content Creation.docx
 		README.md = README.md
 	EndProjectSection
 EndProject
