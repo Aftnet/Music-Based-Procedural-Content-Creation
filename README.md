@@ -3,7 +3,7 @@
 By [Alberto Fustinoni](http://aftnet.net)
 
 ##Research paper
-The paper explaining the theory behind the implementation can be found at [here](http://www.aftnet.net/mbpcc)
+The paper explaining the theory behind the implementation can be found [here](http://www.aftnet.net/mbpcc)
 
 ##Abstract
 With ever increasing development costs due to the adoption of new hardware platforms and the expectations they create among the game buying public, there is a pressing need to automate as much of a title’s production process as possible. While procedural content creation techniques are increasingly seen as an answer to the trend and are consequently gaining widespread diffusion, they are limited in their applications by their general inability to establish emotional connections with the user.
